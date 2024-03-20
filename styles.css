@@ -1,0 +1,216 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    flex: 0 0 30%;
+    background-color: rgba(26, 29, 52, 0.84);
+    padding: 20px;
+}
+
+.img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.Contacts {
+    margin-top: 10px;
+}
+
+.Tech_Skills_title{
+    color: white;
+    margin-top: 25px;
+
+}
+
+.Tech_Skills{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.Tech_Skills li::before {
+    content: "•";
+    color: darkorange;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.Tech_Skills li {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.Contact_title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.Contacts_letter {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.Contacts_link {
+    color: #afafaf;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.about_me_container {
+    flex: 0 0 65%;
+}
+
+.position {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+small {
+    font-size: 14px;
+    color: #888;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.custom-ol {
+    list-style-type: none; /* Remove default numbering */
+    counter-reset: custom-counter; /* Initialize counter */
+    padding-left: 0; /* Remove default padding */
+    font-size: 14px;
+    margin-top: 13px;
+    color: #565656;
+    font-weight: 500;
+}
+
+.custom-ol li {
+    counter-increment: custom-counter; /* Increment counter for each item */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+
+.custom-ol li::before {
+    content: counter(custom-counter) "."; /* Set content to the value of the counter followed by a dot */
+    font-weight: bold; /* Make the numbering bold */
+    margin-right: 5px; /* Add space between numbering and text */
+    color: #000000; /* Set color of the numbering */
+    font-size: 14px;
+}
+
+.describe_me{
+    font-weight: 500;
+    font-size: 14px;
+    color: #565656;
+}
+
+.projects{
+    margin-top: 20px;
+}
+
+.work_exp{
+    margin-top: 20px;
+}
+
+.work_exp_java{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+small{
+    font-size: 11px;
+}
+
+.palka{
+    color: black;
+}
+
+.work_exp_java a.proffession{
+    color: darkorange;
+    text-decoration: none;
+}
+
+.university{
+    color: darkorange;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.facult{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.work_exp_java_freelance {
+    list-style: none; /* Remove default bullet style */
+    padding-left: 20px; /* Add padding for indentation */
+    font-size: 14px;
+}
+
+.work_exp_java_freelance li::before {
+    content: "•"; /* Set the content to a bullet character */
+    color: #565656;
+    display: inline-block; /* Ensure the bullet behaves like an inline element */
+    width: 1em; /* Adjust the width of the bullet */
+    margin-left: -1em; /* Offset the bullet to the left */
+}
+
+.work_exp_java_freelance li {
+    color: #565656;
+    margin-bottom: 5px; /* Add some space between list items */
+}
