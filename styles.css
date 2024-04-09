@@ -217,3 +217,109 @@ small{
     color: #565656;
     margin-bottom: 5px; /* Add some space between list items */
 }
+
+/* Для пристроїв з шириною екрану до 768 пікселів */
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 500px; /* Зменшення максимальної ширини */
+        margin: 5px auto; /* Зменшення відступів */
+        padding: 10px; /* Зменшення внутрішнього відступу */
+    }
+
+    .projects{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .custom-ol {
+        list-style-type: none; /* Remove default numbering */
+        counter-reset: custom-counter; /* Initialize counter */
+        padding-left: 0; /* Remove default padding */
+        font-size: 12px;
+        margin-top: 13px;
+        color: #565656;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .describe_me{
+        font-weight: 500;
+        font-size: 12px;
+        color: #565656;
+    }
+
+    .sidebar {
+        padding: 10px; /* Зменшення внутрішнього відступу бокової панелі */
+    }
+
+    .name {
+        font-size: 24px; /* Зменшення розміру шрифту для імені */
+        margin-bottom: 10px; /* Збільшення відступу після імені */
+    }
+
+    .position {
+        font-size: 18px; /* Зменшення розміру шрифту для посади */
+    }
+
+    .Tech_Skills_title {
+        margin-top: 15px; /* Збільшення відступу перед заголовком навичок */
+        font-size: 16px;
+    }
+
+    .Tech_Skills {
+        margin-top: 5px; /* Збільшення відступу перед списком навичок */
+        font-size: 11px;
+    }
+
+    .Contact_title {
+        font-size: 16px; /* Зменшення розміру шрифту заголовка контактів */
+        margin-bottom: 3px; /* Зменшення відступу після заголовка контактів */
+    }
+
+    .Contacts_letter {
+        font-size: 11px; /* Зменшення розміру шрифту літери контактів */
+    }
+
+    .Contacts_link {
+        font-size: 10px; /* Зменшення розміру шрифту посилань контактів */
+        margin-right: 3px; /* Зменшення відступу між посиланнями контактів */
+    }
+
+    .work_exp {
+        margin-top: 10px; /* Збільшення відступу перед досвідом роботи */
+        font-size: 16px;
+    }
+
+    .work_exp_java {
+        margin-top: 5px; /* Збільшення відступу перед списком досвіду Java */
+        font-size: 14px; /* Зменшення розміру шрифту для списку досвіду Java */
+    }
+
+    .university {
+        font-size: 14px; /* Зменшення розміру шрифту університету */
+        margin-top: 5px; /* Збільшення відступу перед інформацією про університет */
+    }
+
+    .facult {
+        margin-top: 5px; /* Збільшення відступу перед інформацією про факультет */
+        font-size: 12px; /* Зменшення розміру шрифту для інформації про факультет */
+    }
+
+    .work_exp_java_freelance li {
+        margin-bottom: 3px; /* Збільшення відступу між пунктами списку досвіду Java */
+        font-size: 12px; /* Зменшення розміру шрифту для пунктів списку досвіду Java */
+    }
+
+    .palka {
+        font-size: 12px; /* Зменшення розміру шрифту підпису до посилань */
+    }
+
+    .img {
+        width: 100%; /* Зменшення ширини зображення */
+        margin-bottom: 20px; /* Зменшення відступу після зображення */
+    }
+}
