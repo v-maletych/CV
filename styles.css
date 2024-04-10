@@ -241,6 +241,14 @@ small{
         font-weight: 500;
     }
 
+    .custom-ol li{
+        list-style: none;
+    }
+
+    .custom-ol li::before{
+        font-size: 12px;
+    }
+
     h2 {
         font-size: 16px;
         margin-top: 20px;
@@ -322,4 +330,5 @@ small{
         width: 100%; /* Зменшення ширини зображення */
         margin-bottom: 20px; /* Зменшення відступу після зображення */
     }
+
 }
