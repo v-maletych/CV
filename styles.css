@@ -165,6 +165,10 @@ a:hover {
     margin-top: 20px;
 }
 
+.edu{
+    margin-top: 0;
+}
+
 .work_exp{
     margin-top: 20px;
 }
@@ -185,6 +189,7 @@ small{
 .work_exp_java a.proffession{
     color: darkorange;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .university{
@@ -192,6 +197,16 @@ small{
     font-size: 16px;
     margin-top: 10px;
     font-weight: bold;
+}
+
+.strong{
+    color: #333;
+    font-size: 15px;
+}
+
+.pidPunct{
+    font-size: 14px;
+    list-style: none;
 }
 
 .facult{
@@ -204,6 +219,8 @@ small{
     padding-left: 20px; /* Add padding for indentation */
     font-size: 14px;
 }
+
+
 
 .work_exp_java_freelance li::before {
     content: "•"; /* Set the content to a bullet character */
